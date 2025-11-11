@@ -54,10 +54,10 @@ CREATE TABLE transactions (
 );
 -- Insert Example Data
 INSERT INTO suppliers (name, contact) VALUES
-  ('FreshMart', '9812345678'),
-  ('QuickFoods', '9823456789'),
-  ('VeggieZone', '9834567890'),
-  ('BakeryBest', '9845678912');
+  ('Rajat', '9812345678'),
+  ('Praveen', '9823456789'),
+  ('tushar', '9834567890'),
+  ('Vivek', '9845678912');
 INSERT INTO products (name, category, supplier_id, price) VALUES
   ('Apples', 'Fruit', 1, 70.00),
   ('Milk', 'Dairy', 2, 55.00),
